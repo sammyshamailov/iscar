@@ -22,14 +22,23 @@ body:focus {
 
 footer {
     margin-top: 20px;
+    text-align: center;
+    text-shadow: 1px 2px #84c754;
 }
 
 table, tr, td, th {
-    border: 1px solid #84c754;
+    border: 3px groove #84c754;
     border-collapse: collapse;
     padding: 10px;
     text-align: center;
+    text-shadow: 1px 2px #84c754;
+    margin: auto;
     
+}
+
+caption {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*
