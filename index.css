@@ -11,9 +11,10 @@ html:focus {
 body {
     display: block;
     margin: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: 'Goldman', cursive;
     background-color: #000000;
-    color: #ffffff;
+    color: #f7f4f4;
 }
 
 body:focus {
@@ -23,7 +24,8 @@ body:focus {
 footer {
     margin-top: 20px;
     text-align: center;
-    text-shadow: 1px 2px #84c754;
+    /*text-shadow: horizontal vertical blur color*/
+    text-shadow: 2px 2px 5px #84c754;
 }
 
 table, tr, td, th {
@@ -31,8 +33,10 @@ table, tr, td, th {
     border-collapse: collapse;
     padding: 10px;
     text-align: center;
-    text-shadow: 1px 2px #84c754;
-    margin: auto;
+    text-shadow: 2px 2px 5px #84c754;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 caption {
